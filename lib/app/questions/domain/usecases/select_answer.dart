@@ -1,9 +1,8 @@
 import 'package:dartz/dartz.dart';
 
-import 'package:english_quiz/app/questions/domain/entities/answer.dart';
-import 'package:english_quiz/app/questions/domain/repositories/question_repository.dart';
-
+import '../entities/entities.dart';
 import '../errors/errors.dart';
+import '../repositories/question_repository.dart';
 
 abstract class SelectAnswer {
   Future<Either<Failure, Answer>> call(Answer answer);

@@ -1,7 +1,6 @@
 import 'package:dartz/dartz.dart';
-import 'package:english_quiz/app/questions/domain/entities/question.dart';
 
-import '../entities/answer.dart';
+import '../entities/entities.dart';
 import '../errors/errors.dart';
 
 abstract class QuestionRepository {

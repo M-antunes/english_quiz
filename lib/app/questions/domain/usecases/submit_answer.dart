@@ -2,7 +2,7 @@ import 'package:dartz/dartz.dart';
 import 'package:english_quiz/app/questions/domain/entities/answer.dart';
 import 'package:english_quiz/app/questions/domain/repositories/question_repository.dart';
 
-import '../entities/question.dart';
+import '../entities/entities.dart';
 import '../errors/errors.dart';
 
 abstract class SubmitAnswer {
